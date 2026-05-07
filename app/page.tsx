@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       {status !== "Idle" && status !== "Failed" && status !== "Timeout" && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/40 backdrop-blur-sm transition-all px-4">
+        <div className="fixed inset-0 z-100 flex items-center justify-center bg-black/40 backdrop-blur-sm transition-all px-4">
           <div className="bg-white p-6 md:p-8 rounded-2xl shadow-2xl max-w-sm w-full text-center animate-in fade-in zoom-in duration-300">
             {status === "Processing" && (
               <div className="space-y-4">
@@ -69,7 +69,7 @@ export default function Home() {
         </div>
       )}
 
-      <div className="max-w-[1280px] mx-auto px-4 py-6 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 py-6 md:py-12">
         <header className="text-center space-y-2 mb-8 md:mb-12">
           <h1 className="text-2xl md:text-4xl font-bold tracking-tight text-slate-900">
             Checkout
@@ -97,7 +97,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="hidden lg:block w-[1px] self-stretch bg-gray-200" />
+          <div className="hidden lg:block w-px self-stretch bg-gray-200" />
 
           <div className="w-full lg:w-[45%]">
             <div className="bg-white lg:bg-transparent rounded-2xl">

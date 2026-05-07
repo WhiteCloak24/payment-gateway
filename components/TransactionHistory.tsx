@@ -27,7 +27,7 @@ export const TransactionHistory = () => {
         </thead>
       </table>
 
-      <div className="max-h-[calc(100vh-250px)] min-h-[200px] overflow-y-auto">
+      <div className="max-h-[calc(100vh-250px)] min-h-50 overflow-y-auto">
         <table className="w-full text-left text-sm border-collapse">
           <tbody className="divide-y divide-gray-100">
             {history.map((tx) => (

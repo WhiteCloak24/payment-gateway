@@ -15,7 +15,7 @@ export const CardPreview: React.FC<CardPreviewProps> = ({
   cardType,
 }) => {
   return (
-    <div className="w-full max-w-sm h-40 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 text-white shadow-2xl transition-all mb-8">
+    <div className="w-full max-w-sm h-40 bg-linear-to-br from-gray-800 to-gray-900 rounded-xl p-6 text-white shadow-2xl transition-all mb-8">
       <div className="flex justify-between items-start mb-4">
         <div className="w-12 h-8 bg-yellow-500/20 rounded-md" />{" "}
         <span className="font-bold italic text-xl">
